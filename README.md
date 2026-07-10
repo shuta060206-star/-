@@ -30,6 +30,17 @@ Pythonをゼロから学ぶためのリポジトリです。目標は2つ:
 - [ ] レッスン6: 熱伝導方程式の差分法 → `lessons/lesson06_heat_equation.ipynb`
 - [ ] **課題完成**(お手本: `kadai/heat_conduction.py`、結果: `kadai/heat_conduction.png`)
 
+### 演習ドリル(説明つき・演習重視の反復トレーニング)
+
+レッスンで文法を知る → 対応ドリルで定着、の2段構えで進めるのがおすすめ。
+
+| ドリル | 内容 | 対応レッスン |
+|--------|------|--------------|
+| `drills/drillA_kiso30.ipynb` | 基礎30問(変数・リスト・ループ・if・関数) | 1〜3 |
+| `drills/drillB_data20.ipynb` | データ構造20問(辞書・タプル・文字列・ファイル) | 7〜9 |
+| `drills/drillC_numpy_plot15.ipynb` | numpy・グラフ15問(課題の直前トレーニング) | 4〜5 |
+| `drills/drillD_sougou5.ipynb` | 実務風ミニプロジェクト5本(家計簿・ログ解析・在庫クラス等) | 総合 |
+
 ### 第2部: 実務のコードが読める・書けるようになる
 
 - [ ] レッスン7: 辞書・タプル・文字列 → `lessons/lesson07_dict_tuple_string.ipynb`
