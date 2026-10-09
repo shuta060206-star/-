@@ -36,5 +36,6 @@
 ## 就活手帳
 
 - 予定・締切、企業ごとのマイページ情報、Gmailの就活メールは https://claude.ai/artifact/9UW8vBSCCT1p6XpuPsHdUN にまとめている。
-- 予定は events、企業は companies のコレクションに保存しており、新しい予定や企業はArtifactDataで追加・更新する。
-- パスワードは手帳に保存しない。保管先だけを書く。
+- 予定は events に保存し、track が company なら企業の予定、agent ならエージェント面談として別の画面に出す。
+- 企業とエージェントは companies に保存し、type が company か agent かで分ける。新しい予定や企業はArtifactDataで追加・更新する。
+- パスワードは本人が決めた合言葉で暗号化され、本人だけが読める領域に保存される。Claudeはパスワードを読み書きしない。
