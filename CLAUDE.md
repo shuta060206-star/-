@@ -45,3 +45,4 @@
 - 優先順位：本人が良いと言った企業（受ける、気になる）を最優先にする。手帳の並び、報告、調べもの、自動更新での公式情報の確認は、すべてこの企業から先に扱い、Claudeが挙げた会社はその後に書く。
 - 企業ページの項目は全社でそろえる。website（公式サイト）、recruitUrl（採用ページ）、mypageUrl（マイページ）、loginId、email（登録メール）、overview（事業内容）、hq（本社）、workplace（勤務地）、salary（初任給）、holidays（休日）、hires（採用人数）、benefits（福利厚生）、selection、conditions、sources（出典の一覧）。メールから読み取れない会社も公式情報で埋め、確認できない項目は空にして画面上は未確認と出す。
 - メールアドレスは g2436030@gmail.com に統合する方針。iCloudメール（shuta060206@icloud.com）はGmailへ転送してもらい、自動更新はGmailだけを見る。
+- 企業は見つけ方（origin）で分ける。self は本人が自分で探した会社（iTSCOM、テプコシステムズ、NTTデータMSE、TOPPAN、KDDI）、agent はエージェント紹介（via に紹介元、irodasの五社）、claude はClaudeが条件から挙げた会社。新しく追加する時は必ず origin を付け、メールで新しい企業が出てきたら本人が自分で登録したものとして self にする。
